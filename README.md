@@ -43,18 +43,8 @@ This project demonstrates user registration functionality using FastAPI with two
    pip install -r requirements.txt
    ```
 
-4. **Set up the PostgreSQL database:**
 
-   - Make sure PostgreSQL is installed and running.
-   - Create a new PostgreSQL database:
-
-     ```sh
-     psql -U postgres
-     CREATE DATABASE user_db;
-     \q
-     ```
-
-5. **Configure MongoDB:**
+4. **Configure MongoDB:**
 
    - Make sure MongoDB is installed and running.
    - Update the `MONGO_URL` and `MONGO_DB_NAME` in the code to match your MongoDB configuration.
